@@ -2,8 +2,7 @@
 fp-info-cache
 _autosave-CompVueloPotencia.kicad_sch
 CompVueloPotencia-backups/
-.env
-.lck
-.kicad_pro
-.kicad_prl
+*.env
+*.lck
+*.kicad_prl
 \#auto_saved_files#
