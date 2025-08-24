@@ -979,7 +979,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 74.93 64.77 0)
+		(at 124.46 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -988,7 +988,7 @@
 		(fields_autoplaced yes)
 		(uuid "866131b9-2c18-4ab0-a330-6d644cd20703")
 		(property "Reference" "R1"
-			(at 77.47 63.4999 0)
+			(at 127 59.6899 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -997,7 +997,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 77.47 66.0399 0)
+			(at 127 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 64.77 0)
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1015,7 +1015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 64.77 0)
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,7 +1024,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 74.93 64.77 0)
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,7 +1049,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
-		(at 172.72 54.61 0)
+		(at 200.66 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1058,7 +1058,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5e95f47-369a-4e14-9cc7-670346587af5")
 		(property "Reference" "U1"
-			(at 174.8633 24.13 0)
+			(at 202.8033 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +1067,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
-			(at 174.8633 26.67 0)
+			(at 202.8033 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1076,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
-			(at 172.72 52.07 0)
+			(at 200.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1085,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 172.72 54.61 0)
+			(at 200.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 172.72 54.61 0)
+			(at 200.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
