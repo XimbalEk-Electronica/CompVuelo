@@ -1,0 +1,1 @@
+# PCBCompVuelo-PotenciaKicad
