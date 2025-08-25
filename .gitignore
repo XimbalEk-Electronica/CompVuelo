@@ -4,3 +4,5 @@ CompVueloPotencia-backups/
 *.env
 *.lck
 \#auto_saved_files#
+*.kicad_prl
+
