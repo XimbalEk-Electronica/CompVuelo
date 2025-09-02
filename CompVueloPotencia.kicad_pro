@@ -626,7 +626,7 @@
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "used_designators": "R2-5,J1-3,SW2-4,L1-2,D1-2,#PWR3-17,U1-5,C2-7"
+    "used_designators": ""
   },
   "sheets": [
     [

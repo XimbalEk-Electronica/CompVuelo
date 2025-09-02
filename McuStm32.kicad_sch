@@ -1077,9 +1077,97 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "CS0"
+		(shape input)
+		(at 234.95 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "045d030f-728b-493d-a8bd-bd2317717488")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 234.95 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "065b4231-b119-4741-8e22-4a1ad7cc5e91")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 234.95 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c42dcee-ff22-48f6-8495-8b90562d2e2f")
+	)
+	(hierarchical_label "MISO"
+		(shape input)
+		(at 234.95 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2143afee-3c0a-46a0-8b9d-aede6b4db43c")
+	)
+	(hierarchical_label "CS1"
+		(shape input)
+		(at 234.95 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66ec6411-0865-47e9-9f05-19f4b6e082a3")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 234.95 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83234a9d-0b4b-47b4-8b73-fb48e74374bb")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 234.95 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98bea9a1-c365-4239-a0c5-b29d7ece446d")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 234.95 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb3118bc-10b1-4743-9e57-9589af59ecff")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F1:STM32F103CBTx")
-		(at 91.44 73.66 0)
+		(at 184.15 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1088,7 +1176,7 @@
 		(fields_autoplaced yes)
 		(uuid "48f0b293-b267-4379-a595-f1adfb38419d")
 		(property "Reference" "U1"
-			(at 96.1233 114.3 0)
+			(at 188.8333 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1185,7 @@
 			)
 		)
 		(property "Value" "STM32F103CBTx"
-			(at 96.1233 116.84 0)
+			(at 188.8333 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1194,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 76.2 111.76 0)
+			(at 168.91 109.22 0)
 			(hide yes)
 			(effects
 				(font
@@ -1116,7 +1204,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103cb.pdf"
-			(at 91.44 73.66 0)
+			(at 184.15 71.12 0)
 			(hide yes)
 			(effects
 				(font
@@ -1125,7 +1213,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 128KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
-			(at 91.44 73.66 0)
+			(at 184.15 71.12 0)
 			(hide yes)
 			(effects
 				(font

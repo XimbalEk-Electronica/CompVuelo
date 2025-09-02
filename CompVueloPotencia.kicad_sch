@@ -2979,7 +2979,7 @@
 		)
 	)
 	(sheet
-		(at 233.68 60.96)
+		(at 194.31 39.37)
 		(size 40.64 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2995,7 +2995,7 @@
 		)
 		(uuid "760fa55e-294e-4fd0-807b-ac484f8dde0a")
 		(property "Sheetname" "MCU"
-			(at 233.68 60.2484 0)
+			(at 194.31 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3004,7 @@
 			)
 		)
 		(property "Sheetfile" "McuStm32.kicad_sch"
-			(at 233.68 99.6446 0)
+			(at 194.31 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
