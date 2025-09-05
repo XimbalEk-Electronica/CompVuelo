@@ -634,12 +634,12 @@
       "Root"
     ],
     [
-      "4f5bab65-5d70-478a-a3b4-bd14f5a63363",
-      "TPS5430_BuckConv_3.3V"
-    ],
-    [
       "aeca158b-fc2d-4ddc-bcd5-d0230047fc48",
       "TPS5430_BuckConv_5V1"
+    ],
+    [
+      "6710af1a-7af4-4071-8ddf-73e5ddf4bbae",
+      "TPS5430_BuckConv_3.3V"
     ],
     [
       "760fa55e-294e-4fd0-807b-ac484f8dde0a",
