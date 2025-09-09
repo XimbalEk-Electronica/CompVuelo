@@ -626,7 +626,7 @@
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "used_designators": ""
+    "used_designators": "L1-2,D1-2,#PWR1-45,C1-25,FB1,R1-19,J1-3,SW1-3,U1-5"
   },
   "sheets": [
     [
@@ -634,16 +634,28 @@
       "Root"
     ],
     [
-      "aeca158b-fc2d-4ddc-bcd5-d0230047fc48",
+      "487033b6-333f-4306-a023-ef945749ad2b",
       "TPS5430_BuckConv_5V1"
     ],
     [
-      "6710af1a-7af4-4071-8ddf-73e5ddf4bbae",
+      "971120d8-88f6-4f06-95d7-c6ffb6c19a06",
       "TPS5430_BuckConv_3.3V"
+    ],
+    [
+      "fa21d02c-7412-4237-be70-9352a93704d5",
+      "3V3_Outs"
     ],
     [
       "760fa55e-294e-4fd0-807b-ac484f8dde0a",
       "MCU"
+    ],
+    [
+      "5bf3a509-bcce-4dd9-88bf-207e80537017",
+      "LD39200_3v3_2"
+    ],
+    [
+      "d755f871-c070-4193-80dc-3d448dd68f17",
+      "LD39200_3v3_1"
     ]
   ],
   "text_variables": {},
