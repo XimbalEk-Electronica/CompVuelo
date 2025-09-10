@@ -1192,7 +1192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x03_P4.8mm_D0.9mm_OD2.3mm"
+		(property "Footprint" "SPDT_Big:SolderWire-0.5sqmm_1x03_P4.8mm_D0.9mm_OD2.3mm"
 			(at 29.21 69.85 0)
 			(hide yes)
 			(effects
