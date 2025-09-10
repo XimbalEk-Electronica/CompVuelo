@@ -4,6 +4,11 @@
 	(generator_version "9.99")
 	(uuid "0db26169-5f70-4547-b5e6-8fa904e67782")
 	(paper "A5")
+	(title_block
+		(date "2025-09-10")
+		(rev "0.1")
+		(company "XIMBAL EK ELECTRONICA")
+	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
 			(pin_numbers

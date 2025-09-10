@@ -4,6 +4,11 @@
 	(generator_version "9.99")
 	(uuid "cdc212a6-ff4a-48de-905c-926f18b53449")
 	(paper "A5")
+	(title_block
+		(date "2025-09-10")
+		(rev "0.1")
+		(company "XIMBAL EK ELECTRONICA")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers

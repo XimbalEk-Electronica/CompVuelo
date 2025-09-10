@@ -4,6 +4,11 @@
 	(generator_version "9.99")
 	(uuid "e5b9c063-b248-4b67-97ff-d84cad2fddff")
 	(paper "A5")
+	(title_block
+		(date "2025-09-10")
+		(rev "0.1")
+		(company "XIMBAL EK ELECTRONICA")
+	)
 	(lib_symbols
 		(symbol "Device:R_Small"
 			(pin_numbers
@@ -258,7 +263,7 @@
 		)
 		(uuid "484597b5-f9bb-40a3-a2ea-174d92da5d18")
 	)
-	(text "VIN: 		6.5 V - 9 V\nVOUT: 		3.3 V\nIout_Max: 	600 mA (Por salida)"
+	(text "VIN: 		6.5 V - 9 V\nVOUT: 		3.3 V\nIout_Max: 	2A (ambas salidas)"
 		(exclude_from_sim yes)
 		(at 20.32 21.844 0)
 		(effects
