@@ -430,12 +430,12 @@
       "TPS5430_BuckConv_3V3"
     ],
     [
-      "458740b9-bdaf-4bf9-bb67-a5e5200d5774",
-      "CurrentMeasurement_1"
-    ],
-    [
       "feb09cb6-2a66-4de2-b018-21eecf57676b",
       "STM32F103"
+    ],
+    [
+      "7cc5db9b-6587-4cbf-b612-c3459aed7e80",
+      "CurrentMeasurement_1"
     ],
     [
       "fcb12bf2-1da0-4a30-a2b2-2501de3dd27d",
