@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "584e4172-664a-4fdf-bb2d-86a6420669bc")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Vout_{2}"
+		(shape output)
+		(at 138.43 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "289f8390-e92c-4439-b403-eff244a34689")
+	)
+	(hierarchical_label "Vin_{1}"
+		(shape input)
+		(at 114.3 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46b0b777-1e95-41e7-b294-82a35f635dc6")
+	)
+	(hierarchical_label "Vsense_{1}"
+		(shape output)
+		(at 138.43 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81f010da-d5a7-4ca0-b6c2-79b459a36993")
+	)
+	(hierarchical_label "Vin_{2}"
+		(shape input)
+		(at 114.3 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "886a067e-3e64-446a-a92b-849a8ee1169d")
+	)
+	(hierarchical_label "Vsense_{2}"
+		(shape output)
+		(at 138.43 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bc1f054-acb6-4879-94fe-d51a54474796")
+	)
+	(hierarchical_label "Vout_{1}"
+		(shape output)
+		(at 138.43 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5213808-c2dc-4a17-96c7-c80505ea1fad")
+	)
+)
