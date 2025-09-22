@@ -397,7 +397,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../../../../Descargas/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -414,7 +414,11 @@
       "Root"
     ],
     [
-      "3c34479a-8c8f-4a90-8bf8-bc36fb9dcd45",
+      "22ae39d6-ba46-47bf-81b8-3d66f18a6610",
+      "VoltageReg&Sense-CurrentSense"
+    ],
+    [
+      "a9fabb09-e06a-403e-b9ca-f8097161b75b",
       "3V3Outs"
     ],
     [
@@ -426,24 +430,48 @@
       "LD39200_3V3_2"
     ],
     [
+      "1cf9a6d0-d27b-486a-8acc-e9d047026766",
+      "LD39200_3V3_3"
+    ],
+    [
+      "8feaf3f5-a5b8-47c3-b91e-c9322cdb55d9",
+      "LD39200_3V3_4"
+    ],
+    [
+      "1cddb754-2503-430c-b5c5-932ddf9f6bef",
+      "TPS5430_BuckConv_3V3_2"
+    ],
+    [
       "f720b225-9c8e-4c33-a4d5-0347699fa23e",
-      "TPS5430_BuckConv_3V3"
+      "TPS5430_BuckConv_3V3_1"
+    ],
+    [
+      "efcc7e4b-243b-4527-8c15-6d23e19f631a",
+      "5VOut"
+    ],
+    [
+      "17ce59f3-ebc7-4cf9-b87c-b7fb88f98280",
+      "5VBuckReg"
+    ],
+    [
+      "a64c0031-4716-45b1-8c69-e5f49448e67d",
+      "5VLD39200"
+    ],
+    [
+      "b3998068-5005-41ca-89af-5bf3ed5a5126",
+      "CurrentMeasurement_1"
+    ],
+    [
+      "be25167e-9039-4366-817e-a0f58fb35f24",
+      "CurrentMeasurement_2"
+    ],
+    [
+      "7bfa3615-25fd-40a5-8d1f-689fc6c8bfec",
+      "CurrentMeasurement_3"
     ],
     [
       "feb09cb6-2a66-4de2-b018-21eecf57676b",
       "STM32F103"
-    ],
-    [
-      "7cc5db9b-6587-4cbf-b612-c3459aed7e80",
-      "CurrentMeasurement_1"
-    ],
-    [
-      "fcb12bf2-1da0-4a30-a2b2-2501de3dd27d",
-      "5VOut"
-    ],
-    [
-      "95dd95e6-6f41-4dd4-855f-dc6b67136771",
-      "CurrentMeasurement_2"
     ]
   ],
   "text_variables": {}

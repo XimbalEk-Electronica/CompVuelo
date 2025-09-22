@@ -5,37 +5,257 @@
 	(uuid "cab8b9cd-92e4-4655-b59f-98e360b8d76b")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 140.97 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c49520be-a6a1-43d2-8b31-017b2e220fc4")
+	)
+	(wire
+		(pts
+			(xy 140.97 38.1) (xy 146.05 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1235a99e-cfcd-43dc-857d-8a0c1ae9e9b6")
+	)
+	(wire
+		(pts
+			(xy 171.45 33.02) (xy 168.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afbfc13-3682-496b-9fb3-d59523517dbc")
+	)
+	(wire
+		(pts
+			(xy 140.97 34.29) (xy 140.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867c22fe-f9ff-4048-896c-53ad28360e95")
+	)
+	(wire
+		(pts
+			(xy 99.06 34.29) (xy 104.14 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b92657-3a22-4d3f-9021-883a5d9dc7ac")
+	)
+	(wire
+		(pts
+			(xy 121.92 34.29) (xy 140.97 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db42a10-1c13-4bd9-bb3c-ac929b7f7bdf")
+	)
+	(wire
+		(pts
+			(xy 99.06 39.37) (xy 104.14 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1b5b56-88b6-446e-8a1f-6f1f033526bf")
+	)
+	(wire
+		(pts
+			(xy 140.97 34.29) (xy 146.05 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02d81cc-4cea-4aef-8299-169bfa8e8bf2")
+	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 59.69 74.93 180)
+		(at 99.06 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4391d280-8029-4875-8833-25583ea01080")
+		(uuid "669781d6-cf75-45d8-a341-fa726a657184")
 	)
 	(hierarchical_label "5V_{OUT}"
 		(shape output)
-		(at 85.09 69.85 0)
+		(at 171.45 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7b8462a3-e15e-48a6-9d48-9e28c723ade3")
+		(uuid "7b693109-b7fd-4db5-aef1-441bb4170154")
 	)
 	(hierarchical_label "V_{IN}"
 		(shape input)
-		(at 59.69 69.85 180)
+		(at 99.06 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c3d5cf09-4f45-420d-a94c-7cda053d5d89")
+		(uuid "fe72a4bc-380b-4c77-b3c0-6068c9b816ea")
+	)
+	(sheet
+		(at 104.14 31.75)
+		(size 17.78 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17ce59f3-ebc7-4cf9-b87c-b7fb88f98280")
+		(property "Sheetname" "5VBuckReg"
+			(at 104.14 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5VBuckReg.kicad_sch"
+			(at 104.14 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 104.14 39.37 180)
+			(uuid "eba2fabc-05cb-406b-a89d-ca379fe2a206")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{IN}" input
+			(at 104.14 34.29 180)
+			(uuid "be6bb5f3-c0b1-4275-ac32-17525e9fc56e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_{OUT}" output
+			(at 121.92 34.29 0)
+			(uuid "af913ca9-1564-4751-ac2d-c9572139cd53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SupplyBoardCompVuelo"
+				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/efcc7e4b-243b-4527-8c15-6d23e19f631a"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 30.48)
+		(size 22.86 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a64c0031-4716-45b1-8c69-e5f49448e67d")
+		(property "Sheetname" "5VLD39200"
+			(at 146.05 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5vLDO.kicad_sch"
+			(at 146.05 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 146.05 38.1 180)
+			(uuid "0f7bb1a3-846d-4c8b-b26b-bb316f509170")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 168.91 33.02 0)
+			(uuid "861c46dd-cb4b-4d1f-be57-1eb4ae186779")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 146.05 34.29 180)
+			(uuid "18996d7f-022d-43f6-bc08-929df23a7467")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SupplyBoardCompVuelo"
+				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/efcc7e4b-243b-4527-8c15-6d23e19f631a"
+					(page "16")
+				)
+			)
+		)
 	)
 )

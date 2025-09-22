@@ -100,14 +100,14 @@
 			(pin input line
 				(at -11.43 -2.54 0)
 				(length 2.54)
-				(name "-IN_{2}"
+				(name "+IN_{2}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -118,14 +118,14 @@
 			(pin input line
 				(at -11.43 -5.08 0)
 				(length 2.54)
-				(name "+IN_{2}"
+				(name "-IN_{2}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
