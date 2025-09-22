@@ -1,9 +1,25 @@
-CompVueloPotencia/fp-lib-table
-fp-info-cache
-_autosave-CompVueloPotencia.kicad_sch
-SupplyBoard\PCB\CompVueloPotencia\SupplyBoardCompVuelo-backups
-*.env
-*.lck
-\#auto_saved_files#
+# Reglas para KiCad
+
+## Archivos y carpetas de backups y autoguardado
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+#auto_saved_files#/
+
+## Archivos de configuración local y caché
 *.kicad_prl
-CompVueloPotencia/fp-lib-table
+fp-info-cache
+fp-lib-table
+
+## Archivos de bloqueo
+*.lck
+
+# Archivos de entorno (variables, secretos, etc.)
+*.env
+
+# Carpetas de salida comunes (Gerbers, PDFs, etc.)
+/plots/
+/gerber/
+/pdf/
+/bom/
