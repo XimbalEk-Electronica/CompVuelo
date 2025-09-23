@@ -889,6 +889,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Calculo para R:\n\nCurrent_{MAX}*Rsense*GAIN < Vs\n"
+		(exclude_from_sim no)
+		(at 130.81 17.78 0)
+		(size 34.29 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 49 49 75 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a56a2d56-61e5-4fc3-b5c8-260b7c60081f")
+	)
 	(junction
 		(at 90.17 30.48)
 		(diameter 0)
@@ -1407,7 +1428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03c098ad-c345-47d9-aec7-e3dab33eb2b9")
-		(property "Reference" "R38"
+		(property "Reference" "R40"
 			(at 85.09 25.4 90)
 			(effects
 				(font
@@ -1459,7 +1480,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "R38")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -1475,7 +1496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1855c80f-8bf1-46de-80b5-86cfece66f2b")
-		(property "Reference" "JP1"
+		(property "Reference" "JP7"
 			(at 67.31 85.09 0)
 			(effects
 				(font
@@ -1527,7 +1548,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "JP1")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -1543,7 +1564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "188298b6-b856-4c84-adfb-7f7fb23a6dcc")
-		(property "Reference" "JP2"
+		(property "Reference" "JP8"
 			(at 68.58 24.13 0)
 			(effects
 				(font
@@ -1595,7 +1616,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "JP2")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -1610,7 +1631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b43ce3d-a66f-46a8-89a7-b08252b38afc")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR092"
 			(at 105.41 43.18 0)
 			(effects
 				(font
@@ -1660,7 +1681,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "#PWR075")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -1675,7 +1696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aef0a5a-2d3e-4b03-99ab-11e259f90cd6")
-		(property "Reference" "R40"
+		(property "Reference" "R42"
 			(at 133.35 68.072 90)
 			(effects
 				(font
@@ -1691,7 +1712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 133.35 73.66 0)
 			(effects
 				(font
@@ -1727,7 +1748,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "R40")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1743,7 +1764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54dc62f6-4b49-4404-ae0f-7d06d2db755e")
-		(property "Reference" "R37"
+		(property "Reference" "R39"
 			(at 83.82 86.36 90)
 			(effects
 				(font
@@ -1751,7 +1772,7 @@
 				)
 			)
 		)
-		(property "Value" "0.015"
+		(property "Value" "0.020"
 			(at 83.82 88.9 90)
 			(effects
 				(font
@@ -1795,7 +1816,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "R37")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -1811,7 +1832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "642b0576-55e5-4ef9-9872-94b5e1a45fca")
-		(property "Reference" "C33"
+		(property "Reference" "C41"
 			(at 143.51 57.1562 0)
 			(effects
 				(font
@@ -1829,7 +1850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 140.97 58.42 0)
 			(effects
 				(font
@@ -1865,7 +1886,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "C33")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -1880,7 +1901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71d60252-f13c-4699-b4f4-4a178fc6ca99")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 107.442 51.054 0)
 			(effects
 				(font
@@ -1898,7 +1919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:Texas_S-PDSO-G8_3x3mm_P0.65mm"
+		(property "Footprint" "CompVuelo:Texas_S-PDSO-G8_3x3mm_P0.65mm"
 			(at 105.41 63.5 0)
 			(effects
 				(font
@@ -1952,7 +1973,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -1968,7 +1989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "733f4914-ab4f-40c1-9380-7e7ff6a20390")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR095"
 			(at 140.97 68.58 0)
 			(effects
 				(font
@@ -2018,7 +2039,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "#PWR078")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -2034,7 +2055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd63912-961f-45b6-8bdd-e9b01c891626")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR093"
 			(at 105.41 82.55 0)
 			(effects
 				(font
@@ -2084,7 +2105,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "#PWR076")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -2100,7 +2121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83171991-fe97-489f-b204-5d9292e4bc17")
-		(property "Reference" "JP4"
+		(property "Reference" "JP10"
 			(at 102.87 24.13 0)
 			(effects
 				(font
@@ -2152,7 +2173,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "JP4")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -2168,7 +2189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf9f912d-090c-47af-8871-264270715bb2")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR096"
 			(at 140.97 87.63 0)
 			(effects
 				(font
@@ -2218,7 +2239,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "#PWR079")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2234,7 +2255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1dc9cf6-6fdb-40a2-befb-6c84ce3632c9")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR094"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -2285,7 +2306,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "#PWR077")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d052be0a-2357-4934-ae34-698a217cd482")
-		(property "Reference" "R39"
+		(property "Reference" "R41"
 			(at 133.35 49.53 90)
 			(effects
 				(font
@@ -2317,7 +2338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 133.35 54.61 0)
 			(effects
 				(font
@@ -2353,7 +2374,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "R39")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -2369,7 +2390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "def1e083-22b9-49e1-afd5-e7b95fb53648")
-		(property "Reference" "JP3"
+		(property "Reference" "JP9"
 			(at 100.33 85.09 0)
 			(effects
 				(font
@@ -2421,7 +2442,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "JP3")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -2437,7 +2458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee433c2f-dfbb-4e4a-ab13-f9b5945759aa")
-		(property "Reference" "C34"
+		(property "Reference" "C42"
 			(at 143.51 76.2062 0)
 			(effects
 				(font
@@ -2455,7 +2476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 140.97 77.47 0)
 			(effects
 				(font
@@ -2491,7 +2512,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "C34")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -2507,7 +2528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1d94f55-6fee-4678-aff0-58ce8b6962fd")
-		(property "Reference" "C32"
+		(property "Reference" "C40"
 			(at 116.8463 43.18 90)
 			(effects
 				(font
@@ -2523,7 +2544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 116.84 49.53 0)
 			(effects
 				(font
@@ -2559,7 +2580,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "C32")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2574,7 +2595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc426873-581a-4992-ba96-aa99d70a2385")
-		(property "Reference" "JP5"
+		(property "Reference" "JP11"
 			(at 107.95 43.1799 90)
 			(effects
 				(font
@@ -2628,7 +2649,7 @@
 		(instances
 			(project "SupplyBoardCompVuelo"
 				(path "/2119c5ce-afa8-4b00-8fd4-fc653d4beb45/22ae39d6-ba46-47bf-81b8-3d66f18a6610/b3998068-5005-41ca-89af-5bf3ed5a5126"
-					(reference "JP5")
+					(reference "JP11")
 					(unit 1)
 				)
 			)
