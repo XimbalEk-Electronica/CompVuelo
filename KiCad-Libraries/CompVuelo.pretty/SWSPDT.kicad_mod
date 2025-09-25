@@ -236,7 +236,7 @@
 		(uuid "45d2232a-e467-4825-bec5-0bd6c814cd80")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/L-KLS7-SS-12F20A-G5.step"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/L-KLS7-SS-12F20A-G5.step"
 		(offset
 			(xyz 0 0 0)
 		)

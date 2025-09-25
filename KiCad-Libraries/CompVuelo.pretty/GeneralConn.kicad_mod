@@ -2218,7 +2218,7 @@
 		(uuid "aa833679-0351-4980-919b-52726dba259f")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/Pin Header 2x6 TH Pitch 2.54mm.stp"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/Pin Header 2x6 TH Pitch 2.54mm.stp"
 		(offset
 			(xyz 35 -5 -1.5)
 		)
@@ -2229,7 +2229,7 @@
 			(xyz -180 -0 -90)
 		)
 	)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/Pin Header 2x6 TH Pitch 2.54mm.stp"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/Pin Header 2x6 TH Pitch 2.54mm.stp"
 		(offset
 			(xyz -35 -5 -1.5)
 		)
@@ -2240,7 +2240,7 @@
 			(xyz -180 -0 -90)
 		)
 	)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/12-Pin Header - Female - Double - 2.54mm.step"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/12-Pin Header - Female - Double - 2.54mm.step"
 		(offset
 			(xyz 36 -5 0)
 		)
@@ -2251,7 +2251,7 @@
 			(xyz -0 -0 -90)
 		)
 	)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/12-Pin Header - Female - Double - 2.54mm.step"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/12-Pin Header - Female - Double - 2.54mm.step"
 		(offset
 			(xyz -34 -4.5 0)
 		)
@@ -2262,7 +2262,7 @@
 			(xyz -0 -0 -90)
 		)
 	)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/12-Pin Header - Female - Double - 2.54mm.step"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/12-Pin Header - Female - Double - 2.54mm.step"
 		(offset
 			(xyz -5 34 0)
 		)
@@ -2273,7 +2273,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/12-Pin Header - Female - Double - 2.54mm.step"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/12-Pin Header - Female - Double - 2.54mm.step"
 		(offset
 			(xyz -5 -36 0)
 		)
@@ -2284,7 +2284,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/Pin Header 2x6 TH Pitch 2.54mm.stp"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/Pin Header 2x6 TH Pitch 2.54mm.stp"
 		(offset
 			(xyz -5.5 35 -1.5)
 		)
@@ -2295,7 +2295,7 @@
 			(xyz -180 -0 -0)
 		)
 	)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/Pin Header 2x6 TH Pitch 2.54mm.stp"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/Pin Header 2x6 TH Pitch 2.54mm.stp"
 		(offset
 			(xyz -5 -35 -1.5)
 		)

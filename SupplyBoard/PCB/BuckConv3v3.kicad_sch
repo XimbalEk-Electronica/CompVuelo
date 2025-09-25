@@ -2630,7 +2630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 138.43 43.18 90)
 			(effects
 				(font

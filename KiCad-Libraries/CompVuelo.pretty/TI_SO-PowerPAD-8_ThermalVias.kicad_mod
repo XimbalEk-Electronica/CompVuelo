@@ -318,7 +318,7 @@
 		(uuid "a74d6881-6429-44e6-a656-c91719f2ace6")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/SupplyBoard/PCB/SupplyBoardLibraries/CompVuelo_3D/HTSOP-J8.STEP"
+	(model "C:/Users/vickh/Documents/KiCadPrj/CompVuelo/KiCad-Libraries/CompVuelo_3D/HTSOP-J8.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

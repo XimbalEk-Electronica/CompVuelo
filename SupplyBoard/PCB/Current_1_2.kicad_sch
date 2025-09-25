@@ -899,8 +899,7 @@
 			(type solid)
 		)
 		(fill
-			(type color)
-			(color 49 49 75 1)
+			(type none)
 		)
 		(effects
 			(font
