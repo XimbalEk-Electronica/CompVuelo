@@ -253,6 +253,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 31.75 76.2)
+		(size 36.83 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8917fc69-3b16-42bb-b201-45525558c210")
+		(property "Sheetname" "MCU"
+			(at 31.75 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcustm32.kicad_sch"
+			(at 31.75 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CompVuelo_V2.0"
+				(path "/6afb46c3-20ec-46a9-af38-22e838e9d4a3"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
